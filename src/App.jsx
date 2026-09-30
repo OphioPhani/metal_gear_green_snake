@@ -105,6 +105,38 @@ export default function App() {
             RADAR ACTIVE
           </span>
         </footer>
+        <hr className="rule dev-rule" aria-hidden="true" />
+        <footer className="dev-foot" aria-label="Developer attribution">
+          <div className="dev-foot-title">METAL GEAR GREEN SNAKE</div>
+          <div className="dev-foot-sub">A TACTICAL SNAKE SIMULATION</div>
+          <div className="dev-foot-by">DEVELOPED BY PHANI CHANDRA</div>
+          <nav className="dev-links" aria-label="Developer social links">
+            <a
+              href="https://github.com/OphioPhani"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Phani Chandra on GitHub"
+            >
+              [GITHUB]
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ganji-phani-chandra-730809380/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Phani Chandra on LinkedIn"
+            >
+              [LINKEDIN]
+            </a>
+            <a
+              href="https://www.instagram.com/2h4ni_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Phani Chandra on Instagram"
+            >
+              [INSTAGRAM]
+            </a>
+          </nav>
+        </footer>
       </main>
     </div>
   );
